@@ -5,6 +5,7 @@
 
 //===== SAMPLE INCLUDE =====
 #include "Chapter1-class/class.h"
+#include "Chapter2-namespace/namespace.h"
 
 int main(void)
 {

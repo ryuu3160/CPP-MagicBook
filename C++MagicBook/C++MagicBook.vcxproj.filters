@@ -16,6 +16,9 @@
     <Filter Include="ソース ファイル\Chapter1">
       <UniqueIdentifier>{2ad31400-b1b4-409b-971d-c4e8e1683a8a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Chapter2">
+      <UniqueIdentifier>{b95b49e3-a9c6-4dcc-8463-76a82be2d89b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter1-class\class.cpp">
@@ -27,10 +30,16 @@
     <ClCompile Include="CodeTest.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter2-namespace\namespace.cpp">
+      <Filter>ソース ファイル\Chapter2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter1-class\class.h">
       <Filter>ソース ファイル\Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter2-namespace\namespace.h">
+      <Filter>ソース ファイル\Chapter2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

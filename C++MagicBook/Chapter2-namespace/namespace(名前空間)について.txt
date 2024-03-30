@@ -1,0 +1,44 @@
+このテキストでは名前空間(以後namespace)についての詳細な説明を書いていこうと思う
+namespace.cppを見ながら読むと理解しやすいと思う
+
+と言っても、ほとんどnamespace.cppのコメントで説明しちゃってるので、ここで説明することはあんまりないです。
+
+namespaceの書き方で、インデントする派としない派で別れるみたいだけど、これは自分が書きやすい方で書けば良いと思う
+
+インデントする書き方
+namespace Name
+{
+	class N
+	{
+		//色々
+	};
+}
+
+インデントしない書き方
+namespace Name
+{
+class N
+{
+	//色々
+};
+}
+
+namespaceの豆知識として、とても便利で面白いものがあります
+それは、同じ名前のnamespaceが複数箇所に記述されていても、それらは同一とみなされて、１つの名前空間スコープを形成するというものです
+例えば、hoge.cppにbokeというnamespaceが記述されていて、hoge.hにも同じbokeというnamespaceが記述されていた場合、これらは同一のものとみなされるという事です
+下記がそのコード例です
+
+hoge.cpp
+namespace boke
+{
+	void plus(int i,int j)
+    {
+		return i + j;
+    }
+}
+
+hoge.h
+namespace boke
+{
+	void plus(int i,int j);
+}

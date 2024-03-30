@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="Chapter1-class\class.cpp" />
     <ClCompile Include="Chapter1-class\UseClass.cpp" />
+    <ClCompile Include="Chapter2-namespace\namespace.cpp" />
     <ClCompile Include="CodeTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter1-class\class.h" />
+    <ClInclude Include="Chapter2-namespace\namespace.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Chapter1-class\classとは.txt" />
