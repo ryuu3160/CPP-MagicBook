@@ -138,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Chapter1-class\classとは.txt" />
+    <Text Include="Chapter2-namespace\namespace(名前空間)について.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
