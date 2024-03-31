@@ -19,6 +19,9 @@
     <Filter Include="ソース ファイル\Chapter2">
       <UniqueIdentifier>{b95b49e3-a9c6-4dcc-8463-76a82be2d89b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Chapter3">
+      <UniqueIdentifier>{7ab53d95-6c3e-407b-811e-f29d39e8c55d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter1-class\class.cpp">
@@ -33,6 +36,9 @@
     <ClCompile Include="Chapter2-namespace\namespace.cpp">
       <Filter>ソース ファイル\Chapter2</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter3-new_delete\new_delete.cpp">
+      <Filter>ソース ファイル\Chapter3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter1-class\class.h">
@@ -41,6 +47,9 @@
     <ClInclude Include="Chapter2-namespace\namespace.h">
       <Filter>ソース ファイル\Chapter2</Filter>
     </ClInclude>
+    <ClInclude Include="Chapter3-new_delete\new_delete.h">
+      <Filter>ソース ファイル\Chapter3</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Chapter1-class\classとは.txt">
@@ -48,6 +57,9 @@
     </Text>
     <Text Include="Chapter2-namespace\namespace(名前空間)について.txt">
       <Filter>ソース ファイル\Chapter2</Filter>
+    </Text>
+    <Text Include="Chapter3-new_delete\動的なメモリ確保について.txt">
+      <Filter>ソース ファイル\Chapter3</Filter>
     </Text>
   </ItemGroup>
 </Project>

@@ -6,15 +6,34 @@
 //===== SAMPLE INCLUDE =====
 #include "Chapter1-class/class.h"
 #include "Chapter2-namespace/namespace.h"
+#include "Chapter3-new_delete/new_delete.h"
+
+void ClassTest();
+void NewDeleteTest();
 
 int main(void)
 {
 	//----- CLASS -----
+	ClassTest();
+	printf("\n");
+	//----- NEW / DELETE -----
+	printf("----- NEW / DELETE -----\n");
+	NewDeleteTest();
+	return 0;
+}
+
+void ClassTest()
+{
+	printf("----- CLASS -----\n");
 	POS a;
 	POS b(20, 30);
 	a.SetPos(10, 15);
 
 	printf("a.X:%d a.Y:%d\nb.X:%d b.Y:%d\n", a.GetPosX(), a.GetPosY(), b.GetPosX(), b.GetPosY());
+	return;
+}
 
-	return 0;
+void NewDeleteTest()
+{
+	NewDelete1();
 }

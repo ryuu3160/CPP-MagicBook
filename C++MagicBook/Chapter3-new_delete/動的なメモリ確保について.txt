@@ -1,0 +1,17 @@
+この章で説明するnewとdelete、いわゆる動的メモリ確保というものについての説明をここに記述する
+
+C言語では、動的にメモリを確保したい場合、"malloc関数"や"calloc関数"で確保し、"free関数"で解放していた
+しかし、C++ではこれらの関数はほぼ使用しない
+
+代わりに、確保ではnew、解放ではdeleteという演算子を使う
+mallocなどは関数だが、newとdeleteは演算子なのだ
+
+これらの記述例や記述方法は、new_delete.hやnew_delete.cppを参照すること
+伝えたいことはほぼすべて、そのファイルにコメントで記述してある
+
+だが、最近ではこのnewやdeleteといった演算子よりも、標準ライブラリにある"vectorクラス"や"listクラス"を使うことが多くなってきている傾向が見られる
+このvectorやlistについてはまた別の機会に解説しようと思う
+※ちなみに下記のリンクはvectorとlistについてのmicrosoftのリファレンスである
+
+vectorクラス：https://learn.microsoft.com/ja-jp/cpp/standard-library/vector-class?view=msvc-170
+listクラス：https://learn.microsoft.com/ja-jp/cpp/standard-library/list-class?view=msvc-170
