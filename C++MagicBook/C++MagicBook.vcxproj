@@ -131,17 +131,20 @@
     <ClCompile Include="Chapter1-class\UseClass.cpp" />
     <ClCompile Include="Chapter2-namespace\namespace.cpp" />
     <ClCompile Include="Chapter3-new_delete\new_delete.cpp" />
+    <ClCompile Include="Chapter4-enum\enum.cpp" />
     <ClCompile Include="CodeTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter1-class\class.h" />
     <ClInclude Include="Chapter2-namespace\namespace.h" />
     <ClInclude Include="Chapter3-new_delete\new_delete.h" />
+    <ClInclude Include="Chapter4-enum\enum.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Chapter1-class\classとは.txt" />
     <Text Include="Chapter2-namespace\namespace(名前空間)について.txt" />
     <Text Include="Chapter3-new_delete\動的なメモリ確保について.txt" />
+    <Text Include="Chapter4-enum\enumについて.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,6 +7,7 @@
 #include "Chapter1-class/class.h"
 #include "Chapter2-namespace/namespace.h"
 #include "Chapter3-new_delete/new_delete.h"
+#include "Chapter4-enum/enum.h"
 
 void ClassTest();
 void NewDeleteTest();
