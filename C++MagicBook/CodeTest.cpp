@@ -8,24 +8,32 @@
 #include "Chapter2-namespace/namespace.h"
 #include "Chapter3-new_delete/new_delete.h"
 #include "Chapter4-enum/enum.h"
+#include "Chapter5-cast/cast.h"
 
 void ClassTest();
 void NewDeleteTest();
+void CastTest();
 
 int main(void)
 {
 	//----- CLASS -----
+	printf("----- CLASS -----\n");
 	ClassTest();
 	printf("\n");
 	//----- NEW / DELETE -----
 	printf("----- NEW / DELETE -----\n");
 	NewDeleteTest();
+	printf("\n");
+	//----- CAST -----
+	printf("----- CAST -----\n");
+	CastTest();
+
+	printf("\n");
 	return 0;
 }
 
 void ClassTest()
 {
-	printf("----- CLASS -----\n");
 	POS a;
 	POS b(20, 30);
 	a.SetPos(10, 15);
@@ -37,4 +45,9 @@ void ClassTest()
 void NewDeleteTest()
 {
 	NewDelete1();
+}
+
+void CastTest()
+{
+	StaticCastTest();
 }
