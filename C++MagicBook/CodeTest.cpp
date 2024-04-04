@@ -9,10 +9,12 @@
 #include "Chapter3-new_delete/new_delete.h"
 #include "Chapter4-enum/enum.h"
 #include "Chapter5-cast/cast.h"
+#include "Chapter6-overload/overload.h"
 
 void ClassTest();
 void NewDeleteTest();
 void CastTest();
+void OverloadTest();
 
 int main(void)
 {
@@ -20,13 +22,21 @@ int main(void)
 	printf("----- CLASS -----\n");
 	ClassTest();
 	printf("\n");
+
 	//----- NEW / DELETE -----
 	printf("----- NEW / DELETE -----\n");
 	NewDeleteTest();
-	printf("\n");
+	printf("\n\n");
+
 	//----- CAST -----
 	printf("----- CAST -----\n");
 	CastTest();
+	printf("\n\n");
+
+	//----- OVER LOAD -----
+	printf("----- OVER LOAD -----\n");
+	OverloadTest();
+	printf("\n");
 
 	printf("\n");
 	return 0;
@@ -50,4 +60,12 @@ void NewDeleteTest()
 void CastTest()
 {
 	StaticCastTest();
+}
+
+void OverloadTest()
+{
+	printf("関数のオーバーロード\n");
+	UseFUNC();
+	printf("\n演算子のオーバーロード\n");
+	UseOverPos();
 }

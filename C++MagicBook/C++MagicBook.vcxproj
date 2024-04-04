@@ -133,6 +133,7 @@
     <ClCompile Include="Chapter3-new_delete\new_delete.cpp" />
     <ClCompile Include="Chapter4-enum\enum.cpp" />
     <ClCompile Include="Chapter5-cast\cast.cpp" />
+    <ClCompile Include="Chapter6-overload\overload.cpp" />
     <ClCompile Include="CodeTest.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +143,7 @@
     <ClInclude Include="Chapter4-enum\enum.h" />
     <ClInclude Include="Chapter5-cast\cast.h" />
     <ClInclude Include="Chapter5-cast\castについて.txt" />
+    <ClInclude Include="Chapter6-overload\overload.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Chapter1-class\classとは.txt" />

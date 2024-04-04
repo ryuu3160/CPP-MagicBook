@@ -28,6 +28,9 @@
     <Filter Include="ソース ファイル\Chapter5">
       <UniqueIdentifier>{812da5f2-19cd-46de-ae43-2f00c21c1a62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Chapter6">
+      <UniqueIdentifier>{e7492a49-d662-4ae6-ac37-1b2b6c4696f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter1-class\class.cpp">
@@ -51,6 +54,9 @@
     <ClCompile Include="Chapter5-cast\cast.cpp">
       <Filter>ソース ファイル\Chapter5</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter6-overload\overload.cpp">
+      <Filter>ソース ファイル\Chapter6</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter1-class\class.h">
@@ -70,6 +76,9 @@
     </ClInclude>
     <ClInclude Include="Chapter5-cast\castについて.txt">
       <Filter>ソース ファイル\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter6-overload\overload.h">
+      <Filter>ソース ファイル\Chapter6</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
