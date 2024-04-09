@@ -18,6 +18,7 @@ POS::POS()
 POS::POS(int x, int y)
 {
 	//thisポインタを使用することで変数名と引数名が同じでも大丈夫
+	//このthisポインタは省略してもOK(省略する場合は、引数名を変える必要がある)
 	this->x = x;
 	this->y = y;
 	printf("引数ありコンストラクタ\n");//コンストラクタが呼ばれる場所が分かるようにするための措置
@@ -45,4 +46,38 @@ void POS::SetPos(int x, int y)
 {
 	this->x = x;
 	this->y = y;
+}
+
+//----- 継承について -----
+
+//基底クラスのコンストラクタ
+Base::Base()
+{
+	printf("Baceコンストラクタ\n");
+}
+//基底クラスのデストラクタ
+Base::~Base()
+{
+	printf("Baceデストラクタ\n");
+}
+//基底クラスの関数
+void Base::Hello()
+{
+	printf("Bace:Hello\n");
+}
+
+//派生クラスのコンストラクタ
+Child::Child()
+{
+	printf("Childコンストラクタ\n");
+}
+//派生クラスのデストラクタ
+Child::~Child()
+{
+	printf("Childデストラクタ\n");
+}
+//派生クラスの関数
+void Child::HelloWorld()
+{
+	printf("Child:HelloWorld\n");
 }

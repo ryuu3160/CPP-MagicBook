@@ -29,7 +29,7 @@ class“à‚É‘‚©‚ê‚Ä‚¢‚é"private:"‚â"public:"‚ÍƒAƒNƒZƒXCüŽq(Žw’èŽq)‚ÆŒÄ‚Î‚êAƒƒ“
 
 ‚±‚ÌƒTƒ“ƒvƒ‹ƒR[ƒh‚Å"POS();"‚Æ"POS(int x,int y);"‚Æ‚¢‚¤A“¯‚¶–¼‘O‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^‚ª’è‹`‚³‚ê‚Ä‚¢‚é
 ‚±‚ê‚ÍŠÖ”‚ÌƒI[ƒo[ƒ[ƒh‚Æ‚¢‚¤‹@”\‚É‚æ‚èA“¯‚¶–¼‘O‚ÌŠÖ”‚Å‚àAˆø”‚Ìˆá‚¢‚Å•Ê‚ÌŠÖ”‚Æ”FŽ¯‚·‚é‚Æ‚¢‚¤‚à‚Ì‚Å‚ ‚é
-Ú‚µ‚­‚ÍChapter6-overload‚Å‰ðà‚µ‚Ü‚·
+Ú‚µ‚­‚ÍChapter6-overload‚Å‰ðà‚·‚é
 
 class.cpp‚ÉAƒfƒXƒgƒ‰ƒNƒ^‚Ìˆ—‚ÅA‰½‚à‚â‚é‚±‚Æ‚ª‚È‚¢‚Æ‘‚¢‚Ä‚ ‚é‚ªA‚»‚Ì——R‚ðà–¾‚µ‚æ‚¤
 ƒfƒXƒgƒ‰ƒNƒ^‚ÍAƒIƒuƒWƒFƒNƒg‰ð•úŽž(return‚âdestroy)‚ÉŽ©“®“I‚ÉŒÄ‚Ño‚³‚ê‚éŠÖ”‚Å‚ ‚é
@@ -45,10 +45,31 @@ class.cpp‚ÉAƒfƒXƒgƒ‰ƒNƒ^‚Ìˆ—‚ÅA‰½‚à‚â‚é‚±‚Æ‚ª‚È‚¢‚Æ‘‚¢‚Ä‚ ‚é‚ªA‚»‚Ì——R‚ð
 const‚ð•t‚¯‚é—˜“_‚Æ‚µ‚ÄAˆê–Ú‚Åƒƒ“ƒo•Ï”‚ð‘‚«Š·‚¦‚é‰Â”\«‚ª‚ ‚é‚©‚Ç‚¤‚©‚ª•ª‚©‚é“_‚Å‚ ‚é
 
 
-ÅŒã‚ÉAthisƒ|ƒCƒ“ƒ^‚É‚Â‚¢‚Äà–¾‚µ‚æ‚¤‚ÆŽv‚¤
-‚±‚ê‚ÍAƒNƒ‰ƒXƒIƒuƒWƒFƒNƒg‚Ìƒƒ“ƒo‚ÉƒAƒNƒZƒX‚·‚é‚Æ‚«‚ÉŽg—p‚·‚éƒ|ƒCƒ“ƒ^‚Å‚·
+ŽŸ‚ÉAthisƒ|ƒCƒ“ƒ^‚É‚Â‚¢‚Äà–¾‚µ‚æ‚¤‚ÆŽv‚¤
+‚±‚ê‚ÍAƒNƒ‰ƒXƒIƒuƒWƒFƒNƒg‚Ìƒƒ“ƒo‚ÉƒAƒNƒZƒX‚·‚é‚Æ‚«‚ÉŽg—p‚·‚éƒ|ƒCƒ“ƒ^‚¾
 ƒƒ“ƒoŠÖ”“à‚Å‚Íthisƒ|ƒCƒ“ƒ^‚ðÈ—ª‚µ‚Ä‘‚­‚±‚Æ‚ào—ˆ‚é
 ‚±‚±‚Å‹C‚É‚È‚Á‚Ä‚­‚é‚Ì‚ªAthisƒ|ƒCƒ“ƒ^‚Í‰½‚ðŽw‚µ‚Ä‚¢‚é‚Ì‚©
 ŠÈŒ‰‚É“š‚¦‚ðŒ¾‚Á‚Ä‚µ‚Ü‚¤‚ÆA
 uthisƒ|ƒCƒ“ƒ^‚ªŽw‚µŽ¦‚·‚à‚Ì‚Æ‚ÍAƒƒ“ƒoŠÖ”‚ðŒÄ‚Ño‚µ‚½"ƒNƒ‰ƒXƒIƒuƒWƒFƒNƒg"‚Ö‚Ìƒ|ƒCƒ“ƒ^‚È‚Ì‚Å‚ ‚év
 ‚±‚Ìthisƒ|ƒCƒ“ƒ^‚ª‚ ‚é‚¨‚©‚°‚ÅAƒƒ“ƒoŠÖ”‚ðŒÄ‚Ño‚µ‚½ƒIƒuƒWƒFƒNƒg‚É‚æ‚Á‚ÄU‚é•‘‚¢‚ª•Ï‰»‚·‚é‚Ì‚Å‚ ‚é
+
+
+ÅŒã‚ÉAŒp³‚É‚Â‚¢‚Äà–¾‚·‚é
+Œp³‚Æ‚ÍŠù‘¶‚ÌƒNƒ‰ƒX‚ðŽg—p‚µ‚ÄV‚µ‚¢ƒNƒ‰ƒX‚ðì¬‚·‚é‹@”\‚Ì‚±‚Æ‚¾
+‚±‚Ì‹@”\‚ðŽg—p‚·‚é‚±‚Æ‚ÅAŠù‘¶‚ÌƒNƒ‰ƒX‚Ìƒƒ“ƒo‚ðÅ‰‚©‚çŽ‚Á‚Ä‚¢‚éAV‚µ‚¢ƒNƒ‰ƒX‚ðì¬‚·‚é‚±‚Æ‚ª‚Å‚«‚é‚æ‚¤‚É‚È‚é
+‚±‚ÌÕAŒp³Œ³‚ÌƒNƒ‰ƒX(Šù‘¶‚ÌƒNƒ‰ƒX)‚ÌŽ–‚ðA"Šî–{ƒNƒ‰ƒXAŠî’êƒNƒ‰ƒXAƒx[ƒXƒNƒ‰ƒXAƒX[ƒp[ƒNƒ‰ƒXAeƒNƒ‰ƒX"‚Æ‚¢‚Á‚½–¼‘O‚ÅŒÄ‚Ô
+Œp³æ‚ÌƒNƒ‰ƒX‚ÌŽ–‚ÍA"”h¶ƒNƒ‰ƒXAƒTƒuƒNƒ‰ƒXAŽqƒNƒ‰ƒX"‚È‚Ç‚ÆŒÄ‚Ô
+‚±‚êˆÈ~‚Ìà–¾‚Å‚ÍAŒp³Œ³ƒNƒ‰ƒX‚ðŠî’êƒNƒ‰ƒXAŒp³æƒNƒ‰ƒX‚ð”h¶ƒNƒ‰ƒX‚ÆŒÄ‚Ô
+
+‚Å‚ÍAŒp³‚ð‚·‚é–Ú“I‚ðà–¾‚·‚é
+Œp³‚Ì–Ú“I‚ÍŠù‘¶‚ÌƒNƒ‰ƒX‚ðÄ—˜—p‚µ‚ÄƒvƒƒOƒ‰ƒ~ƒ“ƒO‚ðŒø—¦‰»‚·‚é‚±‚Æ‚É‚ ‚é
+—á‚¦‚ÎƒQ[ƒ€‚Å“G‚ÌƒNƒ‰ƒX‚ðì¬‚·‚éê‡A‘å’ï‚Í“G‚ÌŽí—Þ•ª‚ÌƒNƒ‰ƒX‚ðì¬‚·‚é‚¾‚ë‚¤
+‚»‚Ì“GƒNƒ‰ƒX‚Ìƒƒ“ƒo‚Ì’†‚É‚Í“¯‚¶ˆÓ}‚Ìƒƒ“ƒo‚ª•¡”‘¶Ý‚·‚é‚Í‚¸‚¾(À•W‚âA‘¬“xAHPAUŒ‚—Í‚È‚Ç‚Ì•Ï”‚âAƒ_ƒ[ƒWŒvŽZ‚ÌŠÖ”‚È‚Ç)
+Œp³‚ðŽg—p‚µ‚È‚¢ê‡‚Í‘S‚Ä‚ÌƒNƒ‰ƒX‚Å“¯‚¶ƒƒ“ƒo‚ÌéŒ¾‚ðs‚¤•K—v‚ª‚ ‚é
+‚¾‚ªAŒp³‚ðŽg—p‚µ‚½ê‡A‹¤’Ê‚Ìƒƒ“ƒo‚ðŽ‚ÂŠî’êƒNƒ‰ƒX‚ð’è‹`‚·‚ê‚ÎA
+‚»‚ÌƒNƒ‰ƒX‚ðŒp³‚·‚é‚¾‚¯‚ÅŒp³æ‚ÌƒNƒ‰ƒX‚Å‚Í‚»‚ê‚ç‚Ìƒƒ“ƒo‚ðéŒ¾‚·‚é•K—v‚ª‚È‚­‚È‚é
+‚±‚Ì‚æ‚¤‚É•¡”‚ÌƒNƒ‰ƒX‚Å‹¤’Ê‚·‚éƒƒ“ƒo‚ð‚P‚Â‚ÌƒNƒ‰ƒX‚É‚Ü‚Æ‚ß‚é‚±‚Æ‚ð”Ä‰»(‚Í‚ñ‚©)‚Æ‚¢‚¤
+
+Œp³‚É‚Â‚¢‚Ä‚Ì‘‚«•û‚Íclass.h‚Æclass.cpp‚Åà–¾‚µ‚Ä‚¢‚é‚Ì‚ÅA1‚Â’ˆÓ“_‚¾‚¯‹LÚ‚µ‚Ä‚¨‚­
+Šî’êƒNƒ‰ƒX‚Ìƒƒ“ƒo‚Ì“àAprivate‚É‚È‚Á‚Ä‚¢‚é‚à‚Ì‚ÍA”h¶ƒNƒ‰ƒX‚Å‚ÍŽg—p‚Å‚«‚È‚¢
+Žg—p‚µ‚æ‚¤‚Æ‚·‚é‚ÆƒGƒ‰[‚É‚È‚é‚Ì‚ÅAprivateÝ’è‚ð‚·‚éê‡‚ÍA”h¶æ‚ÅŽg—p‚µ‚È‚¢‚æ‚¤‚É‚·‚é‚±‚Æ

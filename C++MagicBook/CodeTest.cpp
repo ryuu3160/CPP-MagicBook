@@ -12,6 +12,7 @@
 #include "Chapter6-overload/overload.h"
 
 void ClassTest();
+void ClassTest2();
 void NewDeleteTest();
 void CastTest();
 void OverloadTest();
@@ -21,6 +22,9 @@ int main(void)
 	//----- CLASS -----
 	printf("----- CLASS -----\n");
 	ClassTest();
+	printf("\n");
+	printf("----- CLASSの継承についての挙動 -----\n");
+	ClassTest2();
 	printf("\n");
 
 	//----- NEW / DELETE -----
@@ -49,6 +53,21 @@ void ClassTest()
 	a.SetPos(10, 15);
 
 	printf("a.X:%d a.Y:%d\nb.X:%d b.Y:%d\n", a.GetPosX(), a.GetPosY(), b.GetPosX(), b.GetPosY());
+	return;
+}
+
+void ClassTest2()
+{
+	Child child;
+	//派生クラスのコンストラクタだけでなく、基底クラスのコンストラクタも呼び出される
+	//呼ばれる順番は、”基底クラスのコンストラクタ→派生クラスのコンストラクタ”である
+
+	child.Hello();
+	//派生クラスのインスタンスで、基底クラスの関数を使うことができる
+	child.HelloWorld();
+	//もちろん自クラスの関数も使用できる
+
+	//return時に呼ばれるデストラクタは、派生クラス→基底クラスの順
 	return;
 }
 
